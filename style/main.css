@@ -2,11 +2,47 @@
      margin: 0px;
      padding: 0px;
 }
-/* create classes to toggle for jQuery fun */
-
-.static {
+.title {
+     padding: 25px;
+     width: 100%;
+     margin: 0 auto;
+     text-align: center;
+}
+.title h2 {
 
 }
-.animate {
+.title p {
+
+}
+/* create classes to toggle for jQuery fun */
+.wrapper {
+     display: flex;
+     flex-flow: row wrap;
+     justify-content: space-around;
+     padding: 50px 0px;
+}
+.static {
+     width: 100px;
+     height: 100px;
+     background-color: blue;
+     text-align: center;
+     color: white;
+}
+.one {
+
+}
+.two {
+
+}
+.three {
+
+}
+.four {
+
+}
+.five {
      
+}
+.animate {
+
 }

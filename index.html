@@ -5,25 +5,31 @@
           <meta name="viewport" content="width=device-width, intitial-scale=1.0">
           <title>jQuery Playground</title>
           <link rel="stylesheet" href="style/main.css">
+          <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js">
+
+          </script>
      </head>
      <body>
-          <h2>jQuery Playground</h2>
-          <!-- divs to mess with -->
-          <p></p>
-          <div class="static grow">
-
+          <div class="title">
+               <h2>jQuery Playground</h2>
+               <p>click on boxes below to start transformations</p>
           </div>
-          <div class="static shrink">
+          <div class="wrapper">
+               <!--changing size on click -->
+               <div class="static grow one">1</div>
 
-          </div>
-          <div class="static changeColor">
+               <div class="static shrink two">2</div>
 
-          </div>
-          <div class="static colorAnimation">
+               <!--changing color and animating color change -->
+               <div class="static changeColor three">3</div>
 
-          </div>
-          <div class="static colorAnimation grow">
+               <div class="static colorAnimation four">4</div>
 
+               <!--changing size and color within an animation-->
+               <div class="static colorAnimation grow five">5</div>
           </div>
+          <!-- loading jQuery and JS files -->
+
+          <script type="text/javascript" src="js/jquery_practice.js"></script>
      </body>
 </html>
