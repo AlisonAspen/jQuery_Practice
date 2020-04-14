@@ -28,21 +28,21 @@
      text-align: center;
      color: white;
 }
-.one {
-
-}
-.two {
-
-}
-.three {
-
-}
-.four {
-
-}
 .five {
-     
+     height: 100px;
+     width: 100px;
+     background-color: blue;
+     text-align: center;
+     color: white;
 }
-.animate {
 
+.active {
+     display: inline-block;
+     animation: grow-color-change 3s infinite;
+     animation-timing-function: ease-in-out;
+     animation-direction: alternate;
+}
+@keyframes grow-color-change {
+     0% {background-color: red; height: 200px; width: 200px;}
+     100% {background-color: blue; height: 300px; width: 300px;}
 }
