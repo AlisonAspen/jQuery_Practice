@@ -2,6 +2,9 @@
      margin: 0px;
      padding: 0px;
 }
+body {
+     background-color: #fcf8f3;
+}
 .title {
      padding: 25px;
      width: 100%;
@@ -9,10 +12,17 @@
      text-align: center;
 }
 .title h2 {
-
+     font-size: 30px;
+     font-family: "Helvetica";
+     color: #413C69;
 }
 .title p {
-
+     font-size: 22px;
+     color: #413C69;
+}
+p {
+     padding: 20px;
+     font-size: 14px;
 }
 /* create classes to toggle for jQuery fun */
 .wrapper {
@@ -24,14 +34,14 @@
 .static {
      width: 100px;
      height: 100px;
-     background-color: blue;
+     background-color: #ad62aa;
      text-align: center;
      color: white;
 }
 .five {
      height: 100px;
      width: 100px;
-     background-color: blue;
+     background-color: #ad62aa;
      text-align: center;
      color: white;
 }

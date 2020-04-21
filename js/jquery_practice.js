@@ -12,12 +12,12 @@ $(".two").click(function(){
 
 $(".three").hover(function(){
      $(".one").css({
-          "background-color": "yellow",
+          "background-color": "#4a47a3",
           "height": "50px",
           "width": "50px",
      });
      $(".three").css({
-          "background-color": "yellow",
+          "background-color": "#4a47a3",
           "height": "50px",
           "width": "50px",
      });
